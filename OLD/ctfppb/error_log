@@ -1,0 +1,72 @@
+[08-Nov-2022 12:18:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 7
+[08-Nov-2022 12:18:08 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[08-Nov-2022 12:18:08 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[10-Nov-2022 12:12:02 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 7
+[10-Nov-2022 12:12:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 7
+[10-Nov-2022 12:12:02 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[10-Nov-2022 12:12:02 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[10-Nov-2022 12:12:36 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 7
+[10-Nov-2022 12:12:36 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 7
+[10-Nov-2022 12:12:36 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[10-Nov-2022 12:12:36 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 10
+[10-Nov-2022 12:16:55 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 82
+[10-Nov-2022 14:18:01 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 82
+[11-Nov-2022 08:25:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 14
+[11-Nov-2022 08:25:39 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 17
+[11-Nov-2022 08:25:39 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 17
+[11-Nov-2022 08:27:31 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 14
+[11-Nov-2022 08:27:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 14
+[11-Nov-2022 08:27:31 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 17
+[11-Nov-2022 08:27:31 UTC] PHP Warning:  A non-numeric value encountered in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 17
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 85
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 86
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 87
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 88
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 90
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 91
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 93
+[24-Nov-2022 05:52:05 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 94
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: name in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 70
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: email in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 71
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: mobile in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 72
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: role in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 73
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: country in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 74
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: state in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 75
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: city in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 76
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: transaction in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 77
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: desig in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 78
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: dept in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 79
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: institution in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 80
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: dpayment in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 81
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: ptype in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 82
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: gender in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 83
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 85
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 86
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 87
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 88
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 93
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 94
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 95
+[03-Feb-2023 15:33:24 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 96
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: name in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 70
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: email in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 71
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: mobile in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 72
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: role in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 73
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: country in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 74
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: state in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 75
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: city in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 76
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: transaction in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 77
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: desig in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 78
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: dept in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 79
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: institution in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 80
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: dpayment in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 81
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: ptype in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 82
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: gender in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 83
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 85
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 86
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: receipt in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 87
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 88
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 93
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 94
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined index: abstract in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 95
+[03-Feb-2023 15:34:36 UTC] PHP Notice:  Undefined offset: 1 in /home/pmgch5ax81n8/public_html/ctfppb/registration.php on line 96
