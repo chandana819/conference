@@ -53,9 +53,9 @@
                             <li><a class="lgx-scroll" href="#lgx-speakers" style="color: white;">Speakers</a></li>
 
 
-                            <li><a class="lgx-scroll" href="#lgx-registration" style="color: white;">Sponsors</a></li>
+                            <!-- <li><a class="lgx-scroll" href="#lgx-registration" style="color: white;">Sponsors</a></li> -->
 							
-                            <li><a class="lgx-scroll" href="#lgx-news" style="color: white;">Registration</a></li>
+                            <li><a class="lgx-scroll" href="#lgx-registration" style="color: white;">Registration</a></li>
 
                             <li><a class="lgx-scroll" href="#lgx-footer" style="color: white;">Contact</a></li>
 

@@ -459,7 +459,7 @@
                         <div class="col-xs-12">
                             <div style="text-align: center; padding: 8px 20px;  border-radius: 20px; position: relative; z-index: 10;">
                                     <h3 style="color: #ffffff !important; font-size: 2.5rem; font-family: sans-serif; font-weight: 700; margin-bottom: 5px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;"> 
-                                        <b style="font-size: 3.5rem; color: #FFD700 !important; letter-spacing: 3px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">25-26th</b> 
+                                        <b style="font-size: 3.5rem; color: #FFD700 !important; letter-spacing: 3px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">25-27th</b> 
                                         <span style="font-size: 2.8rem; color: #ffffff !important; margin-left: 15px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">February, 2026</span>
                                     </h3>
                                     <h2 style="color: #38ef7d !important; font-size: 2.2rem; font-family: 'Poppins', sans-serif; font-weight: 700; margin-top: 5px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">University of Hyderabad</h2>
@@ -720,7 +720,7 @@ Through these various activities the conference aims to deepen our understanding
 
                              
 
-The department of plant Sciences, university of Hyderabad is globally known for imparting high-quality teaching and research in the frontier areas of plant sciences and microbiology. It been supported under UGC Special Assistance Programme and the DST-Funds for Infrastructure in Science and Technology (FIST) Level-II and is marching towards achieving the status of the UGC Centre for Advanced Studies. The foundations for the rapid growth of the Department over the years have been laid with its philosophy to provide a well-balanced training to the students in modern Plant Sciences to enable them to choose careers in both advanced teaching and high quality research. The Department offers Masters in Plant Biology and Biology and Biotechnology and Molecular Biology (in collaboration with sister Departments) and Ph.D. in Plant Sciences besides being actively associated with teaching of Masters in Biotechnology, Integrated Masters of Science in Systems Biology, and M.Tech Bioinformatics programmes of the School of Life Sciences.  One of the regular features of the Department is to host distinguished scholars from abroad for short duration under the international exchange programmes. The individual research laboratories are well equipped, apart from the availability of major equipment in central facilities of the Department, sister Departments in the School, and also at Central Instrumentation Lab of the University.
+The department of plant Sciences, university of Hyderabad is globally known for imparting high-quality teaching and research in the frontier areas of plant sciences and microbiology. It has been supported under UGC Special Assistance Programme and the DST-Funds for Infrastructure in Science and Technology (FIST) Level-II and is marching towards achieving the status of the UGC Centre for Advanced Studies. The foundations for the rapid growth of the Department over the years have been laid with its philosophy to provide a well-balanced training to the students in modern Plant Sciences to enable them to choose careers in both advanced teaching and high quality research. The Department offers Master degrees in (i) Plant Biology and Biotechnology and (ii) Molecular Microbiology and Ph.D. in (i)Plant Sciences and (ii)Microbiology, Department also offers integrated M.Sc. degree as per NEP.  One of the regular features of the Department is to host distinguished scholars from abroad for short duration under the international exchange programmes. The individual research laboratories are well equipped, apart from the availability of major equipment in central facilities of the Department, sister Departments in the School, and also at Central Instrumentation Lab of the University.
       
                             </div>
 
@@ -801,23 +801,23 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 
 
 
-    <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 250px; text-align: center;">
     <h2 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;"><b>Chief Patron</b></h2>
-    <img src="pics/Cheif Patron/1.png" alt="Prof. B. J. Rao" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+    <img src="pics/Cheif Patron/1.png" alt="Prof. B. J. Rao" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
     <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Prof. B. J. Rao</h3>
     <p style="margin: 0; font-size: 14px; color: #666;">Vice Chancellor<br>University of Hyderabad</p>
 </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
+<div style="display: flex; flex-direction: column; align-items: center; width: 250px; text-align: center;">
     <h2 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;"><b>Patron</b></h2>   
-    <img src="pics/Patron/1.png" alt="Prof. Anand Kumar Kondapi" style="width: 150px; height: 150px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+    <img src="pics/Patron/1.png" alt="Prof. Anand Kumar Kondapi" style="width: 200px; height: 200px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
     <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Prof. Anand Kumar Kondapi</h3>
     <p style="margin: 0; font-size: 14px; color: #666;">Dean, School of Life Sciences<br>University of Hyderabad</p>
 </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
+<div style="display: flex; flex-direction: column; align-items: center; width: 250px; text-align: center;">
     <h2 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;"><b>Convener</b></h2>   
-    <img src="pics/Patron/3.png" alt="Prof.Ragiba Makandar" style="width: 150px; height: 150px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+    <img src="pics/Patron/3.jpg" alt="Prof.Ragiba Makandar" style="width: 200px; height: 200px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
     <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Prof.Ragiba Makandar</h3>
     <p style="margin: 0; font-size: 14px; color: #666;">Head , Department of<br> Plant Sciences</p>
 </div>
@@ -899,8 +899,8 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
                     </div>
 
                     <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
-                        <img src="assets/speakers/4.png" alt="Alok Kr Sinha" style="width: 150px; height: 150px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
-                        <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Alok Kr Sinha</h3>
+                        <img src="assets/speakers/4.png" alt="Alok Krishna Sinha" style="width: 150px; height: 150px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+                        <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Alok Krishna Sinha</h3>
                     </div>
 
                     <!-- second row -->
@@ -917,7 +917,7 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 
                     <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
                         <img src="assets/speakers/6.png" alt="Jagadish Gupta Kapuganti" style="width: 150px; height: 150px; border-radius: 50%; object-fit: fill; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
-                        <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Jagadish Gupta Kapuganti</h3>  
+                        <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Jagdis Gupta Kapuganti</h3>  
                     </div>
 
                     <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
@@ -1067,7 +1067,7 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 
       <div class="note1">
         <strong>Accommodation: </strong> 
-        Limited guest house/hostel accommodation for students available on payment basis on first come first service. Contact person: Prof. Rahul Kumar , email id: rksl@uohyd.ac.in
+        Limited guest house/hostel accommodation for students available on payment basis on first come first service. Contact person: Prof. Rahul Kumar , email id: <strong>rksl@uohyd.ac.in</strong>
       </div>
     </div>
 
@@ -1137,7 +1137,7 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
   border-left: 4px solid #0077cc;
   padding: 10px 15px;
   margin-top: 15px;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   line-height: 1.5;
 }
@@ -1147,21 +1147,22 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
   width: 100%;
   border-collapse: collapse;
   margin: 15px 0;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .fees-table th,
 .fees-table td {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
   word-break: break-word;
+  font-size: 1.5rem;
 }
 
 .fees-table th {
   background-color: #003366;
   color: white;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .fees-table td.highlight {
@@ -1304,10 +1305,10 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 </style>
 
         
-        <div class="card" style="max-width: 100%; margin-top: 30px;">
+        <div class="card" style="max-width: 100%; margin-top: 30px;text-align: center;">
             <h2 class="card-title">What's Included in Your Registration</h2>
             
-            <ul class="benefits-list">
+            <ul class="benefits-list" style="list-style:none;">
                 <li>Conference materials and welcome kit</li>
                 <li>Access to all conference sessions</li>
                 <li>Conference dinner</li>
@@ -1349,9 +1350,9 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
     </div><br>
 
     <!-- Payment Gateway Instructions -->
-    <div class="container mt-5 mb-5" >
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
+    <div class="container mt-5 mb-5" style="max-width: 90%;">
+        <div class="row justify-content-center">
+            <div class="col-12">
                 <div class="card shadow-lg border-0" style="border-top: 4px solid #003366;">
                     <div class="card-header bg-gradient" style="background: linear-gradient(to right, #38ef7d, #52c234); padding: 25px; border-radius: 10px 10px 0 0;">
                         <h2 class="card-title mb-0" style="color: white; font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.2rem; text-align: center;">
@@ -1362,34 +1363,38 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
                         <ol class="list-group list-group-flush" style="font-family: 'Poppins', sans-serif;">
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">1</span>
-                                <span class="ml-3">All participants will have to register by providing the basic details like email and mobile number.</span>
+                                <span class="ml-3">Use internet explorer or Mozila fire fox browser</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">2</span>
-                                <span class="ml-3">After successful registration, the participants shall login & click on <strong class="text-success">Pay Now</strong>.</span>
+                                <span class="ml-3">All participants will have to register by providing the basic details like email and mobile number.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">3</span>
-                                <span class="ml-3">Here the participants will select his / her conference / workshop.</span>
+                                <span class="ml-3">After successful registration, the participants shall login & click on <strong class="text-success">Pay Now</strong>.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">4</span>
-                                <span class="ml-3">On clicking on <strong class="text-success">Pay Now</strong>, the refund policy screen will appear, and participants check the accept box and click on <strong class="text-success">Proceed</strong>.</span>
+                                <span class="ml-3">Here the participants will select his / her conference / workshop.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">5</span>
-                                <span class="ml-3">On submission, the participants will be directed to confirmation & payment page.</span>
+                                <span class="ml-3">On clicking on <strong class="text-success">Pay Now</strong>, the refund policy screen will appear, and participants check the accept box and click on <strong class="text-success">Proceed</strong>.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">6</span>
-                                <span class="ml-3">On successful payment the participant can download the receipt.</span>
+                                <span class="ml-3">On submission, the participants will be directed to confirmation & payment page.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
                                 <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">7</span>
+                                <span class="ml-3">On successful payment the participant can download the receipt.</span>
+                            </li>
+                            <li class="list-group-item border-0 pl-0 pb-4" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
+                                <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">8</span>
                                 <span class="ml-3">To check the status of his payment, the participant can login and see his transactions.</span>
                             </li>
                             <li class="list-group-item border-0 pl-0 pb-0" style="font-size: 1.3rem; line-height: 1.8; color: #333;">
-                                <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">8</span>
+                                <span class="badge badge-primary" style="background-color: #003366; font-size: 1.1rem; padding: 10px 14px;">9</span>
                                 <span class="ml-3">Once registered, the participant can use the same login for any other conference / events in UoH.</span>
                             </li>
                         </ol>
@@ -1589,17 +1594,10 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
                             </p>
                         </div>
                         
-                        <div style="background: white; padding: 30px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                            <h4 style="color: #003366; margin-bottom: 20px; font-family: 'Roboto Condensed', sans-serif; font-size: 20px; text-align: center;">
-                                <i class="fa fa-file-text-o" style="margin-right: 10px; color: #38ef7d;"></i>Abstract Submission Space
-                            </h4>
-                            
-                        </div>
-                        
                         <div class="text-center" style="margin-top: 30px;">
-                            <a class="lgx-btn lgx-btn-big" href="javascript:void(0);" style="background: linear-gradient(to right, #38ef7d, #52c234); padding: 15px 40px; font-size: 18px; cursor: pointer;">
-                                <i class="fa fa-download" style="margin-right: 10px;"></i>
-                                <span style="font-family:'Roboto Condensed', sans-serif;">Download Abstract</span>
+                            <a class="lgx-btn lgx-btn-big" href="register.php" target="blank" style="background: linear-gradient(to right, #38ef7d, #52c234); padding: 15px 40px; font-size: 18px; cursor: pointer;">
+                                <i class="fa fa-upload" style="margin-right: 10px;"></i>
+                                <span style="font-family:'Roboto Condensed', sans-serif;">Upload Abstract</span>
                             </a>
                         </div>
                     </div>
@@ -1678,8 +1676,9 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
                             <li>Rahul Kumar</li>
                             <li>Gopinath Kodetham</li>
                             <li>Jogi Madhuprakash</li>
-                            <li>M Muthamilarasan</li>
                             <li>Siddharthan S</li>
+                            <li>M Muthamilarasan</li>
+                            
 
                             </ul>
 

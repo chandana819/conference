@@ -1,5 +1,4 @@
 <?php include "header.php"; ?>
-
 <!doctype html>
 
 <html class="no-js" lang="en">
@@ -10,15 +9,13 @@
     <!-- The above 3 meta tags *must* come first in the head -->
 
     <!-- SITE TITLE -->
-    <title>CTFPPB 2025</title>
-    <meta name="description" content="International Conference on Virus Evolution, Infection and Disease Control (ICVEIDC) 2022"/>
-    <meta name="keywords" content="International, Conference, Virus, Evolution, Infection, Disease Contro, ICVEIDC, 2022"/>
-    <meta name="author" content="Dept of Biotechnology & Bioinformatics, UoH, Hyderabad"/>
-
+    <title>Conference Registration</title>
+    <meta name="description" content="Conference Registration Form"/>
+    <meta name="keywords" content="Conference, Registration"/>
+    <meta name="author" content="Conference Organization"/>
 
     <!--  FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <!-- this icon shows in browser toolbar -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
 
     <!-- BOOTSTRAP CSS -->
@@ -27,359 +24,412 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all"/>
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all"/>
-
-    <!-- Time Circle -->
-    <link rel="stylesheet" href="assets/libs/timer/TimeCircles.css" media="all"/>
-
-    <!-- OWL CAROUSEL CSS -->
-    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
-    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
-
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cPoppins:300,400,400i,600,600i,700,800,900"/>
 
     <!-- MASTER  STYLESHEET  -->
     <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all"/>
 
-    <link rel="stylesheet" href="alert/dist/sweetalert.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
 
-    <!-- MODERNIZER CSS  -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-	
-	<style>
-                @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        .highlight2 {
+            background-color: #ffffff;
+            border-radius: 6px;
+            opacity:0.5;
+            padding: 3px 6px;
+        }
 
-                @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+        /* Enhanced Form Styles */
+        .enhanced-form-container {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            margin-top: 20px;
+        }
 
-	/* gradient source: https://uigradients.com/#Wiretap */
-/* decreased transparency to 80% */
-/* .highlight {
-  background-image: linear-gradient(to right, #4776e6, #8e54e9);
-  border-radius: 6px;
-  padding: 3px 6px;
-} */
-.highlight2 {
-  background-color: #ffffff;
-  border-radius: 6px;
-  opacity:0.5;
-  padding: 3px 6px;
-  
-}
+        .form-title-section {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 2px solid #f0f0f0;
+        }
 
-.err
-{
-	color:Yellow;
-	font-weight:bold;
-	margin-bottom:5px;
-	text-decoration: underline;
-}
+        .form-title-section h4 {
+            color: #2c3e50;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
 
-	</style>
-	
+        .form-title-section .subtitle {
+            color: #7f8c8d;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group-enhanced {
+            margin-bottom: 28px;
+        }
+
+        .form-label-enhanced {
+            display: block;
+            color: #34495e;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 0.3px;
+        }
+
+        .form-sublabel {
+            display: block;
+            color: #95a5a6;
+            font-size: 12px;
+            margin-top: 4px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .form-input-enhanced {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #e8ecef;
+            border-radius: 8px;
+            font-size: 15px;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            background-color: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form-input-enhanced:focus {
+            outline: none;
+            border-color: #52c234;
+            background-color: #ffffff;
+            box-shadow: 0 0 0 4px rgba(82, 194, 52, 0.1);
+        }
+
+        .form-input-enhanced::placeholder {
+            color: #bdc3c7;
+        }
+
+        .file-upload-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-upload-input {
+            position: absolute;
+            left: -9999px;
+        }
+
+        .file-upload-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 2px dashed #d0d7de;
+            border-radius: 8px;
+            color: #6c757d;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .file-upload-label:hover {
+            background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+            border-color: #52c234;
+            color: #52c234;
+        }
+
+        .file-upload-label i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .file-name-display {
+            margin-top: 8px;
+            padding: 8px 12px;
+            background: #e8f5e9;
+            border-radius: 6px;
+            color: #2e7d32;
+            font-size: 13px;
+            display: none;
+        }
+
+        .submit-btn-enhanced {
+            width: 100%;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #52c234 0%, #38ef7d 100%);
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(82, 194, 52, 0.3);
+            margin-top: 10px;
+        }
+
+        .submit-btn-enhanced:hover {
+            background: linear-gradient(135deg, #45a82b 0%, #2dd865 100%);
+            box-shadow: 0 6px 20px rgba(82, 194, 52, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .submit-btn-enhanced:active {
+            transform: translateY(0);
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 6px;
+            display: none;
+            padding: 8px 12px;
+            background: #fef5f5;
+            border-radius: 6px;
+            border-left: 3px solid #e74c3c;
+        }
+
+        .input-icon {
+            position: relative;
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #95a5a6;
+        }
+
+        .input-icon .form-input-enhanced {
+            padding-left: 45px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .enhanced-form-container {
+                padding: 25px 20px;
+            }
+
+            .form-title-section h4 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 
 <body class="home">
 
-<div class="lgx-container ">
-<!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+<div class="lgx-container">
+    <!--HEADER-->
+    <!-- <header>
+        <div id="lgx-header" class="lgx-header">
+            <div class="lgx-header-position lgx-header-position-white lgx-header-position-fixed">
+                <div class="lgx-container">
+                    <nav class="navbar navbar-default lgx-navbar">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="lgx-logo">
+                                <a href="index.php" class="lgx-scroll">
+                                    <img src="assets/img/logo.png" alt="Conference"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav lgx-nav navbar-right">
+                                <li><a class="lgx-scroll" href="index.php">Home</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!--HEADER END-->
 
+    <!--BANNER-->
+    <section>
+        <div class="lgx-banner" style="background-image: url(assets/img/bg.png);">
+            <div class="lgx-banner-style">
+                <div class="lgx-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <h2 class="highlight" style='color:#ebe9ef;padding:10px;background: linear-gradient(to right, #38ef7d, #52c234); border-radius: 20px; font-family:"Roboto Condensed", sans-serif; font-weight: bold;letter-spacing: 1px;' align="center">CONFERENCE REGISTRATION</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BANNER END-->
 
-
-
-<!--BANNER-->
-<section>
-    <div class="lgx-banner" style="background-image: url(assets/img/bg.png);">
-        <div class="lgx-banner-style">
+    <!--REGISTER-->
+    <section>
+        <div id="lgx-about" class="lgx-about">
             <div class="lgx-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12">
-						
-                                    <h2 class="highlight" style='color:#ebe9ef;padding:10px;background: linear-gradient(to right, #38ef7d, #52c234); border-radius: 20px; font-family:"Roboto Condensed", sans-serif; font-weight: bold;letter-spacing: 1px;' align="center">ICACCR 2025 REGISTRATION</h2>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="lgx-about-img"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="enhanced-form-container">
+                                <div class="form-title-section">
+                                    <h4>Registration</h4>
+                                    <span class="subtitle">& Abstract Submission</span>
+                                </div>
+
+                                <form action="new_registration.php" method="post" enctype="multipart/form-data" onsubmit="return validate();">
+                                    
+                                    <!-- Transaction ID Field -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Transaction ID</label>
+                                        <div class="input-icon">
+                                            <i class="fa fa-credit-card"></i>
+                                            <input 
+                                                name="transaction" 
+                                                class="form-input-enhanced" 
+                                                placeholder="Enter your payment transaction ID" 
+                                                type="text" 
+                                                id="transaction" 
+                                                required>
+                                        </div>
+                                        <div id="transaction_err" class="error-message"></div>
+                                    </div>
+
+                                    <!-- Payment Receipt Upload -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Payment Receipt</label>
+                                        <span class="form-sublabel">Upload proof of payment (All file formats accepted)</span>
+                                        <div class="file-upload-wrapper">
+                                            <input 
+                                                type="file" 
+                                                name="receipt" 
+                                                id="receipt-upload" 
+                                                class="file-upload-input"
+                                                required 
+                                                onchange="displayFileName(this, 'receipt-name')">
+                                            <label for="receipt-upload" class="file-upload-label">
+                                                <i class="fa fa-cloud-upload"></i>
+                                                <span>Choose Payment Receipt</span>
+                                            </label>
+                                        </div>
+                                        <div id="receipt-name" class="file-name-display"></div>
+                                    </div>
+
+                                    <!-- Abstract Upload -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Abstract Document</label>
+                                        <span class="form-sublabel">Upload your research abstract (All file formats accepted)</span>
+                                        <div class="file-upload-wrapper">
+                                            <input 
+                                                type="file" 
+                                                name="abstract" 
+                                                id="abstract-upload" 
+                                                class="file-upload-input"
+                                                required 
+                                                onchange="displayFileName(this, 'abstract-name')">
+                                            <label for="abstract-upload" class="file-upload-label">
+                                                <i class="fa fa-file-text"></i>
+                                                <span>Choose Abstract File</span>
+                                            </label>
+                                        </div>
+                                        <div id="abstract-name" class="file-name-display"></div>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <button type="submit" name="register" class="submit-btn-enhanced">
+                                        Submit Registration
+                                    </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <!--//.ROW-->
                 </div>
-                <!-- //.CONTAINER -->
             </div>
-            <!-- //.INNER -->
         </div>
-    </div>
-</section>
-<!--BANNER END-->
+    </section>
+    <!--REGISTER END-->
 
-<!--REGISTER-->
-
-            <section>
-
-                <div id="lgx-about" class="lgx-about">
-                    <div class="lgx-inner">
-                            <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-3">
-                                    <div class="lgx-about-img">
-                                        
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    
-                                    <div class="lgx-registration-form-box lgx-about-registration-box">
-                            <h4 class="title" style='line-height:0.7;'>REGISTRATION<br><span style='font-size:20px;color: white;'>& ABSTRACT SUBMISSION</span></h6></h4>
-							
-                            
-
-                            <div class="lgx-registration-form" id="success" >
-                                
-                            <form action="registration.php" method="post"  enctype="multipart/form-data" onsubmit="return(validate());"> 
-
-                                <input name="name" value="" class="wpcf7-form-control form-control" placeholder="Your Full Name ..." type="text" id="name" required>
-								<span id='name_err' class='err'></span>
-								
-								<input name="email" value="" class="wpcf7-form-control form-control" placeholder="Your Email ID..." type="email" id="email" required>
-								
-								<input name="mobile" value="" class="wpcf7-form-control form-control" placeholder="Your Mobile Number ..." type="text" id="mobile" required>
-                                <span id='mobile_err' class='err'></span>
-
-								<select name="role" class="wpcf7-form-control wpcf7-select lgx-select" id="role" required>
-                                    <option value=''>-- Registration Type --</option>
-                                    <option value="Faculty" >Faculty</option>
-                                    <option value="Student" >Student</option>
-                                    <option value="Industry" onchange="karthik()">Industry Participant</option>
-                                    <option value="International">International Participant</option>
-                                    <!--<option value="others" >Others</option>-->
-                                </select>
-                                <span id='role_err' class='err'></span>
-
-<div id="reveal">
-                                <input type="text" name="country" class="wpcf7-form-control form-control" placeholder="Country" id="country">
-                                <span id='country_err' class='err'></span>
-
-                                <input type="text" name="state" class="wpcf7-form-control form-control" placeholder="State" id="state">
-                                <span id='state_err' class='err'></span>
-
-                                <input type="text" name="city" class="wpcf7-form-control form-control" placeholder="City" id="city">
-                                <span id='city_err' class='err'></span>
-</div>
-
-                                <input type="text" name="transaction" class="wpcf7-form-control form-control" placeholder="Transaction ID for payment of registration fee" id="transaction"  required>
-                                <span id='transaction_err' class='err'></span>
-
-                                <input name="desig" value="" class="wpcf7-form-control form-control" placeholder="Designation" type="text" id="desig" required>
-								<span id='designation_err' class='err'></span>
-
-                                <input name="dept" value="" class="wpcf7-form-control form-control" placeholder="Department" type="text" id="dept" required>
-								<span id='dept_err' class='err'></span>
-
-                                <input name="institution" value="" class="wpcf7-form-control form-control" placeholder="Institution" type="text" id="institution" required>
-								<span id='institution_err' class='err'></span>
-<div style="color: rgb(247, 240, 240);" align='left'>
-<label >Date of Payment of Registration fee</label>
-
-                                <input type="date" name="dpayment" id="dpayment" placeholder="Date of Payment of Registration fee"
-                                class="wpcf7-form-control form-control" required>
-                                <span id="date_err" class="err"></span></div>
-
-                                
-
-						<div align='left' style='color:#ffffff;'>
-    <b>Presentation Type:</b> 
-    <input type='radio' name="ptype" id='oral' value='Oral' onchange="abs();" checked> Oral
-    <input type='radio' name='ptype' id='poster' value="Poster" onchange="abs();"> Poster
-    <input type='radio' name='ptype' id='participant' value="Participant" onchange="abs();"> Participant 
-</div>
-<div style="color:#ffffff; font-size: small; margin-top: 5px;">
-    <i>Note: More Submission under the “ORAL” Presentation category does not guarantee an oral presentation. For further queries, please contact the organizers.</i>
-</div>
-
-<br>
-                                <div align='left' style='color:#ffffff;'><b>Select Your Gender:</b> 
-                                    <input type='radio' name="gender" id='male' value='Male' onchange="abs();" > Male
-                                    <input type='radio' name='gender' id='female' value="Female" onchange="abs();" checked> Female
-                                    </div>
-							
-								<!-- <p style='color:#ffffff;'><br>Your Abstract Text (250-300 Words)</p>
-								<textarea name='abstract' id='abstract' class="wpcf7-form-control form-control" required></textarea>
-                                <div style='color:#ffffff;'>Total Words: <span id="countWord">0</span></div>
-                            <span id='abs_err' class='err'></span> -->
-                                <br>
-                                <label align="left" style='color:#ffffff;'>Upload Payment Receipt</label><p style="font-family:'Montserrat', sans-serif;color: white;">(upload only "<i style="color: rgb(239, 209, 16);"> .png</i> " or " <i style="color: rgb(239, 209, 16);">.jpg</i> " files)</p>
-                                        <input type="file" name="receipt" value="Upload Payment Receipt" required class="lgx-btn lgx-scroll lgx-btn-red" accept=".png,.jpg"/>
-                                        <br><br>
-<p style="font-family:'Montserrat', sans-serif;color: white;"><a href="assets/files/CTFPPB-2023_Abstract-Template.docx" download style="color: rgb(239, 209, 16);">Download</a> Abstract Template</p><br>
-                                        <label align="left" style='color:#ffffff;'>Upload Your Abstract</label>
-                                        <p style="font-family:'Montserrat', sans-serif;color: white;">(upload only " <i style="color: rgb(239, 209, 16);">.doc</i> " or "<i style="color: rgb(239, 209, 16);"> .docx</i> " files)</p>
-                                        <input type="file" name="abstract" class="lgx-btn lgx-scroll lgx-btn-red" required accept=".doc,.docx,.word,.document" />
-                                        <br><br>
-                                
-
-                                </div>
-                                <input value="SUBMIT REGISTRATION" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit" name='register'onclick="JSalert()">
-
-                                <marquee behavior="scroll" direction="left"></marquee>
-                                
-                            
-                            </form>  
-                            </div>
-	
-                                                </div>
-                                </div>
-                            </div>
-                        </div><!-- //.CONTAINER -->
-                   </div><!-- //.INNER -->
+    <!--FOOTER-->
+    <!-- <footer>
+        <div id="lgx-footer" class="lgx-footer">
+            <div class="lgx-inner-footer">
+                <div class="container">
+                    <div class="lgx-footer-area">
+                        <div class="lgx-footer-single">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="text">Conference Registration System</p>
+                        </div>
+                    </div>
+                    <div class="lgx-footer-bottom">
+                        <div class="lgx-copyright">
+                            <p><span>©</span> 2024 Conference Registration System</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
-<!--REGISTER-->
+            </div>
+        </div>
+    </footer> -->
+</div>
 
-<script type="text/javascript">
-    function JSalert(){
-        swal("You Have Registered Successfully!");
+<script>
+function validate() {
+    var errorDiv = document.getElementById("transaction_err");
+    errorDiv.style.display = "none";
+    errorDiv.innerHTML = "";
+    
+    var transaction = document.getElementById("transaction").value.trim();
+    
+    if(transaction.length < 5) {
+        errorDiv.innerHTML = "Please enter a valid transaction ID (minimum 5 characters)";
+        errorDiv.style.display = "block";
+        return false;
     }
-    </script>
-
-
-
-
-<script>
-
-function validate(){
-	
-	document.getElementById("name_err").innerHTML="";
-	document.getElementById("mobile_err").innerHTML="";
-	document.getElementById("role_err").innerHTML="";
-	document.getElementById("affiliation_err").innerHTML="";
-	document.getElementById("abs_err").innerHTML="";	
-		
-    var name = document.getElementById("name").value;
-	var nre = /^[a-zA-Z. ]{2,100}$/;
-    if(!nre.test(name))
-	{
-	  document.getElementById("name_err").innerHTML="Invalid Name! Name should contain only Alphabets and .";
-	return false;
-	}
-	
-    var email = document.getElementById("email").value;
-    var mobile = document.getElementById("mobile").value;
-	
-    var role = document.getElementById("role").value;
-    var affiliation = document.getElementById("affiliation").value;
-	
-	if(affiliation.length < 5)
-	{
-	  document.getElementById("affiliation_err").innerHTML="Please write correct affiliation!";
-  	  return false;
-	}
-
-    var abs = document.getElementById("abstract").value;
-    var cnt = document.getElementById("countWord").innerHTML;
-	
-	if(cnt > 300)
-	{
-	  document.getElementById("abs_err").innerHTML="Abstract has more than 300 words!";
-	  return false;
-	}
-	
-/*	if(name.match(/^\d+/))
-	{
-		alert("Invalid Name");
-	}
-	
-	alert(name);
-	*/
-	return true;
-   
- } 
- 
-function abs()
-{
-
-    var ptype = document.getElementById("participant").checked;
-	
-    if(ptype)
-	{
-   	  document.getElementById("abstract").innerHTML="I would like to attend as a Participant (No Abstract).";	
-	}
-   else
-    {
-     document.getElementById("abstract").innerHTML="";	
-	}
-}	
- 
-</script>
-
-<script>
-
-function count_word( val ){
-    var wom = val.match(/\S+/g);
-    return {
-        words : wom ? wom.length : 0
-    };
+    
+    return true;
 }
 
-
-var textContent = document.getElementById("abstract");
-var showWordCount   = document.getElementById("countWord");
-
-textContent.addEventListener("input", function(){
-  var v = count_word( this.value );
-  showWordCount.innerHTML = (v.words);
-}, false);
+function displayFileName(input, displayId) {
+    var display = document.getElementById(displayId);
+    if (input.files && input.files[0]) {
+        display.innerHTML = '<i class="fa fa-check-circle"></i> ' + input.files[0].name;
+        display.style.display = "block";
+    }
+}
 </script>
 
-
-</div>
-<!--//.LGX SITE CONTAINER-->
-<!-- *** ADD YOUR SITE SCRIPT HERE *** -->
 <!-- JQUERY  -->
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-
 <!-- BOOTSTRAP JS  -->
 <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Smooth Scroll  -->
-<script src="assets/libs/jquery.smooth-scroll.js"></script>
-
-<!-- SKILLS SCRIPT  -->
-<script src="assets/libs/jquery.validate.js"></script>
-
-<!-- if load google maps then load this api, change api key as it may expire for limit cross as this is provided with any theme -->
-<script type="text/javascript" src="https://goo.gl/maps/tQLo4RaHbYLF9hRD7"></script>
-
-<!-- CUSTOM GOOGLE MAP -->
-<script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js"></script>
-
-<!-- adding magnific popup js library -->
-<script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
-
-<!-- Owl Carousel  -->
-<script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
-
-<!-- COUNTDOWN   -->
-<script src="assets/libs/countdown.js"></script>
-<script src="assets/libs/timer/TimeCircles.js"></script>
-
-<!-- Counter JS -->
-<script src="assets/libs/waypoints.min.js"></script>
-<script src="assets/libs/counterup/jquery.counterup.min.js"></script>
-
-<!-- SMOTH SCROLL -->
-<script src="assets/libs/jquery.smooth-scroll.min.js"></script>
-<script src="assets/libs/jquery.easing.min.js"></script>
-
-<!-- type js -->
-<script src="assets/libs/typed/typed.min.js"></script>
-
-<!-- header parallax js -->
-<script src="assets/libs/header-parallax.js"></script>
-
-<!-- instafeed js -->
-
-<script src="assets/libs/instafeed.min.js"></script>
-
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
 
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'sg2plmcpnl492402'},{'dcenter':'sg2'},{'id':'8721005'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script><script src='https://img1.wsimg.com/traffic-assets/js/tccl-tti.min.js' onload='window.tti.calculateTTI()'></script></html>
-    <?php include "footer.php"; ?>
+</html>
+
+<?php include "footer.php"; ?>
