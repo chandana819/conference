@@ -1,5 +1,33 @@
 <header>
 
+    <style>
+        /* Mobile view adjustments */
+        @media (max-width: 768px) {
+            .lgx-logo {
+                gap: 8px !important;
+            }
+            .lgx-logo a img {
+                height: 40px !important;
+            }
+            .lgx-logo a:last-child img {
+                height: 50px !important;
+            }
+            .ioe-logo-desktop {
+                display: none !important;
+            }
+        }
+        
+        /* Desktop view */
+        @media (min-width: 769px) {
+            .lgx-logo a img {
+                height: 60px !important;
+            }
+            .lgx-logo a:last-child img {
+                height: 80px !important;
+            }
+        }
+    </style>
+
     <div id="lgx-header" class="lgx-header">
 
         <div class="lgx-header-position lgx-header-position lgx-header-position-fixed "> <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
@@ -22,24 +50,20 @@
 
                         </button>
 
-                        <div class="lgx-logo">
+                        <div class="lgx-logo" style="display: flex; align-items: center; gap: 15px;">
 
                             <a href="index.html" class="lgx-scroll">
-
-                                <img src="assets/img/apei_2026.png" alt="Emeet Logo"/>
-
+                                <img src="assets/img/apei_2026.png" alt="APEI 2026 Logo" style="height: 80px; width: auto;"/>
                             </a>
 
                         </div>
+                        
 
                     </div>
 
                     <div id="navbar" class="navbar-collapse collapse">
 
-                        <div class="lgx-nav-right navbar-right">
-
-
-                        </div>
+                        
 
                         <ul class="nav navbar-nav lgx-nav navbar-right">
 

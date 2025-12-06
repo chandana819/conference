@@ -58,8 +58,8 @@
 
                         <div style="margin-bottom: 12px;">
                             <p style="font-size: 14px; margin: 0; color: #cccccc;">
-                                <strong style="color: white;">For Abstract Submission:</strong><br>
-                                <a href="mailto:irfan@uohyd.ac.in" style="color: #38ef7d; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#52c234'" onmouseout="this.style.color='#38ef7d'">irfan@uohyd.ac.in</a>
+                                <strong style="color: white;">For Abstract Submission & <br>Conference related issue:</strong><br>
+                                <a href="mailto:ncapei2026@gmail.com" style="color: #38ef7d; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#52c234'" onmouseout="this.style.color='#38ef7d'">ncapei2026@gmail.com</a>
                             </p>
                         </div>
 

@@ -373,6 +373,40 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Logo container styling */
+.university-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.university-logo {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.7));
+    transition: transform 0.3s ease;
+}
+
+.university-logo:hover {
+    transform: scale(1.08);
+}
+
+.university-text {
+    font-family:'Poppins', sans-serif;
+    font-size: 5.5rem;
+    color: #38ef7d !important;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0,0,0,1);
+    position: relative;
+    z-index: 11;
+    text-align: center;
+}
+
 .lgx-countdown-area {
     margin: 22px auto;
     text-align: center;
@@ -437,6 +471,34 @@
         font-size: 3.3rem !important;
         margin-top: 8px !important;
     }
+    
+    /* Mobile logo adjustments */
+    .university-logo-container {
+        gap: 12px;
+        margin: 15px 0;
+    }
+    
+    .university-logo {
+        height: 70px;
+    }
+    
+    .university-text {
+        font-size: 3rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .university-logo {
+        height: 55px;
+    }
+    
+    .university-text {
+        font-size: 2rem !important;
+    }
+    
+    .university-logo-container {
+        gap: 10px;
+    }
 }
 </style>
 </head>
@@ -457,12 +519,22 @@
                 <div >
                     <div class="row">
                         <div class="col-xs-12">
+                            
                             <div style="text-align: center; padding: 8px 20px;  border-radius: 20px; position: relative; z-index: 10;">
+                                    <!-- Logo above the date -->
+                                    <div style="text-align: center; margin-bottom: 15px;">
+                                        <img src="./assets/img25/UOH_index.png" alt="Logo 3" class="university-logo" style="height: 140px; filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.8));">
+                                    </div>
+                                    
                                     <h3 style="color: #ffffff !important; font-size: 2.5rem; font-family: sans-serif; font-weight: 700; margin-bottom: 5px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;"> 
-                                        <b style="font-size: 3.5rem; color: #FFD700 !important; letter-spacing: 3px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">25-27th</b> 
+                                        <b style="font-size: 3.5rem; color: #FFD700 !important; letter-spacing: 3px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">25<sup>th</sup>-27<sup>th</sup></b> 
                                         <span style="font-size: 2.8rem; color: #ffffff !important; margin-left: 15px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">February, 2026</span>
                                     </h3>
-                                    <h2 style="color: #38ef7d !important; font-size: 2.2rem; font-family: 'Poppins', sans-serif; font-weight: 700; margin-top: 5px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">University of Hyderabad</h2>
+                                    <div class="university-logo-container">
+                                    <img src="./assets/img25/IOE_index.jpg" alt="Logo 1" class="university-logo">
+                                        <h2 class="university-text">University of Hyderabad</h2>
+                                        <img src="./assets/img25/logo_index.png" alt="Logo 2" class="university-logo">
+                                    </div>
                             </div>
                             <div class="lgx-banner-info-area" style="position: relative; z-index: 10;">
                                 <div class="lgx-banner-info lgx-banner-info-xscenter">
@@ -481,7 +553,7 @@
                                         </div>
                                         </h3>
                                         <h2 class="title" style="font-family:'Roboto Condensed',sans-serif;font-weight:800;text-shadow: 4px 4px 12px rgb(0, 0, 0); font-size:6rem; margin: 10px 0; text-align: center; position: relative; z-index: 10;">APEI<span>-<b>2</b><b>0</b><b>2</b><b>6</b></span></h2>
-                                        <h3 class="location" style='font-size:1.5rem;font-weight:bold;font-family: "Poppins", sans-serif; text-align: center; margin-top: 5px; position: relative; z-index: 10; text-shadow: 3px 3px 8px rgba(0,0,0,0.8);'><i class="fa fa-map-marker"></i> Dept. of Plant Sciences, School of Life Sciences, UoH, Hyderabad, India</h3>
+                                        <h3 class="location" style='font-size:3rem;font-weight:bold;font-family: "Poppins", sans-serif; text-align: center; margin-top: 5px; position: relative; z-index: 10; text-shadow: 3px 3px 8px rgba(0,0,0,0.8);'><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/search/?api=1&query=Department+of+Plant+Sciences,+School+of+Life+Sciences,+University+of+Hyderabad,+Hyderabad,+India" target="_blank" style="color: inherit; text-decoration: none; cursor: pointer;">Dept. of Plant Sciences, School of Life Sciences, UoH, Hyderabad, India</a></h3>
                                     </div>
                                 </div>
                             </div>  
@@ -566,7 +638,7 @@
 
             <div class="countdown-left-info" style="background:linear-gradient(to right, #FF007f,#FF007f );">
 
-				<h1 class="date" style="color:white;"><b>25th - 27th FEB</b></h1>
+				<h1 class="date" style="color:white;"><b>25<sup>th</sup> - 27<sup>th</sup> FEB</b></h1>
 
                 <h2 class="date"  style="color:white;"> 2026</h2><br>
 
@@ -801,7 +873,7 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 
 
 
-    <div style="display: flex; flex-direction: column; align-items: center; width: 250px; text-align: center;">
+<div style="display: flex; flex-direction: column; align-items: center; width: 250px; text-align: center;">
     <h2 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;"><b>Chief Patron</b></h2>
     <img src="pics/Cheif Patron/1.png" alt="Prof. B. J. Rao" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
     <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Prof. B. J. Rao</h3>
@@ -839,11 +911,10 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
     
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;">
 
-
-    <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
-    <img src="pics/Advisory Board/1.png" alt="Ch. Venkataramana" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
-    <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Ch. Venkataramana</h3>
-    <!-- <p style="margin: 0; font-size: 14px; color: #666;">Director CDFD, Hyderabad</p> -->
+<div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
+    <img src="pics/Advisory Board/3.png" alt="AS Raghavendra " style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+    <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">AS Raghavendra </h3>
+    <!-- <p style="margin: 0; font-size: 14px; color: #666;">IoE-Chair Professor (SLS)</p> -->
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
@@ -853,9 +924,9 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
-    <img src="pics/Advisory Board/3.png" alt="AS Raghavendra " style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
-    <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">AS Raghavendra </h3>
-    <!-- <p style="margin: 0; font-size: 14px; color: #666;">IoE-Chair Professor (SLS)</p> -->
+    <img src="pics/Advisory Board/1.png" alt="Ch. Venkataramana" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+    <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Ch. Venkataramana</h3>
+    <!-- <p style="margin: 0; font-size: 14px; color: #666;">Director CDFD, Hyderabad</p> -->
 </div>
 
 
@@ -876,7 +947,10 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
         <div class="container">
         
             <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;">
-    
+                    <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
+                        <img src="assets/speakers/18.jpg" alt="Anil K Tripathi" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+                        <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Anil K Tripathi</h3>
+                    </div>
   
                     <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
                         <img src="assets/speakers/1.png" alt="S.Venkata Mohan " style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
