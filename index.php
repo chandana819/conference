@@ -18,7 +18,7 @@
 
     <!-- SITE TITLE -->
 
-    <title>APEI-2025</title>
+    <title>APEI-2026</title>
     
     
     <link rel="icon" href="\assets\img25\favicon.png" type="image/png" />
@@ -385,9 +385,11 @@
 }
 
 .university-logo {
-    height: 120px;
+    height: 150px;
     width: auto;
+    border-radius: 50%;
     object-fit: contain;
+    
     filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.7));
     transition: transform 0.3s ease;
 }
@@ -479,7 +481,7 @@
     }
     
     .university-logo {
-        height: 70px;
+        height: 90px;
     }
     
     .university-text {
@@ -489,7 +491,7 @@
 
 @media (max-width: 480px) {
     .university-logo {
-        height: 55px;
+        height: 70px;
     }
     
     .university-text {
@@ -531,9 +533,9 @@
                                         <span style="font-size: 2.8rem; color: #ffffff !important; margin-left: 15px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">February, 2026</span>
                                     </h3>
                                     <div class="university-logo-container">
-                                    <img src="./assets/img25/IOE_index.jpg" alt="Logo 1" class="university-logo">
+                                    <img src="./assets/img25/IOE_index.png" alt="Logo 1" style="width:150px; background-color: white; border-radius: 50%;" class="university-logo">
                                         <h2 class="university-text">University of Hyderabad</h2>
-                                        <img src="./assets/img25/logo_index.png" alt="Logo 2" class="university-logo">
+                                        <img src="./assets/img25/dept_logo.png" alt="Logo 2" class="university-logo">
                                     </div>
                             </div>
                             <div class="lgx-banner-info-area" style="position: relative; z-index: 10;">
@@ -948,7 +950,7 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
         
             <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;">
                     <div style="display: flex; flex-direction: column; align-items: center; width: 200px; text-align: center;">
-                        <img src="assets/speakers/18.jpg" alt="Anil K Tripathi" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
+                        <img src="assets/speakers/18" alt="Anil K Tripathi" style="width: 150px; height: 150px; border-radius: 50%; background-color: #343030ff;object-fit: cover; border: 3px solid #fff; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);">
                         <h3 style="margin: 10px 0 5px; font-weight: bold; font-size: 14px;">Anil K Tripathi</h3>
                     </div>
   
