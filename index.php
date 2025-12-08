@@ -476,12 +476,12 @@
     
     /* Mobile logo adjustments */
     .university-logo-container {
-        gap: 12px;
+        gap: 5px;
         margin: 15px 0;
     }
     
     .university-logo {
-        height: 90px;
+        height: 60px;
     }
     
     .university-text {
@@ -491,15 +491,15 @@
 
 @media (max-width: 480px) {
     .university-logo {
-        height: 70px;
+        height: 60px;
     }
     
     .university-text {
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
     
     .university-logo-container {
-        gap: 10px;
+        gap: 5px;
     }
 }
 </style>
@@ -533,7 +533,7 @@
                                         <span style="font-size: 2.8rem; color: #ffffff !important; margin-left: 15px; text-shadow: 4px 4px 10px rgba(0,0,0,1); position: relative; z-index: 11;">February, 2026</span>
                                     </h3>
                                     <div class="university-logo-container">
-                                    <img src="./assets/img25/IOE_index.png" alt="Logo 1" style="width:150px; background-color: white; border-radius: 50%;" class="university-logo">
+                                    <img src="./assets/img25/IOE_index.png" alt="Logo 1" class="university-logo">
                                         <h2 class="university-text">University of Hyderabad</h2>
                                         <img src="./assets/img25/dept_logo.png" alt="Logo 2" class="university-logo">
                                     </div>
@@ -1479,6 +1479,9 @@ The University of Hyderabad (UoH), also known as Hyderabad Central University, i
                         </div>
                         <div class="text-center mt-5">
                             <a class="lgx-btn lgx-btn-big" href="https://payuoh.uohyd.ac.in/" target="_blank"><span style="font-family:'Roboto Condensed', sans-serif;">Click Here To Register</span></a>
+                            <p style="margin-top: 20px; font-size: 1.5rem; color: #003366; font-family: 'Poppins', sans-serif; font-weight: 600;">
+                                <i class="fa fa-arrow-circle-right"></i> After registration come back to original window for abstract submission with payment details
+                            </p>
                         </div>
                     </div>
                 </div>

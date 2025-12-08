@@ -2,7 +2,12 @@
 include 'connect.php';
 
 if(isset($_POST['register'])) {
-    $transaction_id = $_POST['transaction'];
+    // Get form data
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $affiliation = mysqli_real_escape_string($conn, $_POST['affiliation']);
+    $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $transaction_id = mysqli_real_escape_string($conn, $_POST['transaction']);
     
     // Handle payment receipt file upload
     $payment_receipt = '';
@@ -49,17 +54,17 @@ if(isset($_POST['register'])) {
     }
     
     // Insert into database only if both files were uploaded successfully
-    if(!empty($payment_receipt) && !empty($abstract_file) && !empty($transaction_id)) {
-        $sql = "INSERT INTO registrations (transaction_id, payment_receipt, abstract) VALUES (?, ?, ?)";
+    if(!empty($payment_receipt) && !empty($abstract_file) && !empty($transaction_id) && !empty($name) && !empty($affiliation) && !empty($mobile) && !empty($email)) {
+        $sql = "INSERT INTO registrations (name, affiliation, mobile, email, transaction_id, payment_receipt, abstract) VALUES (?, ?, ?, ?, ?, ?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
         
         if ($stmt) {
-            mysqli_stmt_bind_param($stmt, "sss", $transaction_id, $payment_receipt, $abstract_file);
+            mysqli_stmt_bind_param($stmt, "sssssss", $name, $affiliation, $mobile, $email, $transaction_id, $payment_receipt, $abstract_file);
             
             if (mysqli_stmt_execute($stmt)) {
                 $inserted_id = mysqli_insert_id($conn);
                 echo '<script>
-                    alert("Registration submitted successfully! Your Registration ID is: ' . $inserted_id . '");
+                    alert("Registration submitted successfully! Your Registration ID is: ' . $inserted_id . '\\n\\nName: ' . $name . '\\nEmail: ' . $email . '");
                     window.location = "register.php";
                 </script>';
             } else {

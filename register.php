@@ -304,6 +304,70 @@
 
                                 <form action="new_registration.php" method="post" enctype="multipart/form-data" onsubmit="return validate();">
                                     
+                                    <!-- Name Field -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Full Name</label>
+                                        <div class="input-icon">
+                                            <i class="fa fa-user"></i>
+                                            <input 
+                                                name="name" 
+                                                class="form-input-enhanced" 
+                                                placeholder="Enter your full name" 
+                                                type="text" 
+                                                id="name" 
+                                                required>
+                                        </div>
+                                        <div id="name_err" class="error-message"></div>
+                                    </div>
+
+                                    <!-- Affiliation Field -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Affiliation</label>
+                                        <div class="input-icon">
+                                            <i class="fa fa-building"></i>
+                                            <input 
+                                                name="affiliation" 
+                                                class="form-input-enhanced" 
+                                                placeholder="Enter your institution/organization" 
+                                                type="text" 
+                                                id="affiliation" 
+                                                required>
+                                        </div>
+                                        <div id="affiliation_err" class="error-message"></div>
+                                    </div>
+
+                                    <!-- Mobile Field -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Mobile Number</label>
+                                        <div class="input-icon">
+                                            <i class="fa fa-phone"></i>
+                                            <input 
+                                                name="mobile" 
+                                                class="form-input-enhanced" 
+                                                placeholder="Enter your mobile number" 
+                                                type="tel" 
+                                                id="mobile" 
+                                                required>
+                                        </div>
+                                        <div id="mobile_err" class="error-message"></div>
+                                    </div>
+
+                                    <!-- Email Field -->
+                                    <div class="form-group-enhanced">
+                                        <label class="form-label-enhanced">Email Address</label>
+                                        <div class="input-icon">
+                                            <i class="fa fa-envelope"></i>
+                                            <input 
+                                                name="email" 
+                                                class="form-input-enhanced" 
+                                                placeholder="Enter your email address" 
+                                                type="email" 
+                                                id="email" 
+                                                required>
+                                        </div>
+                                        <div id="email_err" class="error-message"></div>
+                                    </div>
+
                                     <!-- Transaction ID Field -->
                                     <div class="form-group-enhanced">
                                         <label class="form-label-enhanced">Transaction ID</label>
@@ -398,19 +462,58 @@
 
 <script>
 function validate() {
-    var errorDiv = document.getElementById("transaction_err");
-    errorDiv.style.display = "none";
-    errorDiv.innerHTML = "";
+    // Clear all error messages
+    var errorDivs = document.querySelectorAll('.error-message');
+    errorDivs.forEach(function(div) {
+        div.style.display = "none";
+        div.innerHTML = "";
+    });
     
-    var transaction = document.getElementById("transaction").value.trim();
+    var isValid = true;
     
-    if(transaction.length < 5) {
-        errorDiv.innerHTML = "Please enter a valid transaction ID (minimum 5 characters)";
-        errorDiv.style.display = "block";
-        return false;
+    // Validate Name
+    var name = document.getElementById("name").value.trim();
+    if(name.length < 2) {
+        document.getElementById("name_err").innerHTML = "Please enter a valid name (minimum 2 characters)";
+        document.getElementById("name_err").style.display = "block";
+        isValid = false;
     }
     
-    return true;
+    // Validate Affiliation
+    var affiliation = document.getElementById("affiliation").value.trim();
+    if(affiliation.length < 2) {
+        document.getElementById("affiliation_err").innerHTML = "Please enter a valid affiliation";
+        document.getElementById("affiliation_err").style.display = "block";
+        isValid = false;
+    }
+    
+    // Validate Mobile
+    var mobile = document.getElementById("mobile").value.trim();
+    var mobilePattern = /^[0-9]{10,15}$/;
+    if(!mobilePattern.test(mobile)) {
+        document.getElementById("mobile_err").innerHTML = "Please enter a valid mobile number (10-15 digits)";
+        document.getElementById("mobile_err").style.display = "block";
+        isValid = false;
+    }
+    
+    // Validate Email
+    var email = document.getElementById("email").value.trim();
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailPattern.test(email)) {
+        document.getElementById("email_err").innerHTML = "Please enter a valid email address";
+        document.getElementById("email_err").style.display = "block";
+        isValid = false;
+    }
+    
+    // Validate Transaction ID
+    var transaction = document.getElementById("transaction").value.trim();
+    if(transaction.length < 5) {
+        document.getElementById("transaction_err").innerHTML = "Please enter a valid transaction ID (minimum 5 characters)";
+        document.getElementById("transaction_err").style.display = "block";
+        isValid = false;
+    }
+    
+    return isValid;
 }
 
 function displayFileName(input, displayId) {
